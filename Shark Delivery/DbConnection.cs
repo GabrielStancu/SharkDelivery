@@ -14,7 +14,7 @@ namespace Shark_Delivery
 
         public void OpenConnection()
         {
-            connStr = @"Server=ASUS-ROG\SQLEXPRESS;Database=DeliveryDb;User Id=Gabi;Password = acon; ";
+            connStr = @"Server=[ENTER SERVER NAME/IP HERE];Database=DeliveryDb;User Id=[ENTET USERNAME HERE];Password = [ENTER PASSWORD HERE]; ";
             conn = new SqlConnection(connStr);
             conn.Open();
         }
